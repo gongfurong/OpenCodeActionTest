@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SumFloats")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0268cadcda2363617e6dc5cb23f300953306f6cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1fafed163159c6d03c68773a6122d4aa4cfe21b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SumFloats")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SumFloats")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
