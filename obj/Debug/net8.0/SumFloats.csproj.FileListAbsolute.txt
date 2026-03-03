@@ -1,0 +1,15 @@
+/home/runner/work/OpenCodeActionTest/OpenCodeActionTest/bin/Debug/net8.0/SumFloats
+/home/runner/work/OpenCodeActionTest/OpenCodeActionTest/bin/Debug/net8.0/SumFloats.deps.json
+/home/runner/work/OpenCodeActionTest/OpenCodeActionTest/bin/Debug/net8.0/SumFloats.runtimeconfig.json
+/home/runner/work/OpenCodeActionTest/OpenCodeActionTest/bin/Debug/net8.0/SumFloats.dll
+/home/runner/work/OpenCodeActionTest/OpenCodeActionTest/bin/Debug/net8.0/SumFloats.pdb
+/home/runner/work/OpenCodeActionTest/OpenCodeActionTest/obj/Debug/net8.0/SumFloats.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/OpenCodeActionTest/OpenCodeActionTest/obj/Debug/net8.0/SumFloats.AssemblyInfoInputs.cache
+/home/runner/work/OpenCodeActionTest/OpenCodeActionTest/obj/Debug/net8.0/SumFloats.AssemblyInfo.cs
+/home/runner/work/OpenCodeActionTest/OpenCodeActionTest/obj/Debug/net8.0/SumFloats.csproj.CoreCompileInputs.cache
+/home/runner/work/OpenCodeActionTest/OpenCodeActionTest/obj/Debug/net8.0/SumFloats.sourcelink.json
+/home/runner/work/OpenCodeActionTest/OpenCodeActionTest/obj/Debug/net8.0/SumFloats.dll
+/home/runner/work/OpenCodeActionTest/OpenCodeActionTest/obj/Debug/net8.0/refint/SumFloats.dll
+/home/runner/work/OpenCodeActionTest/OpenCodeActionTest/obj/Debug/net8.0/SumFloats.pdb
+/home/runner/work/OpenCodeActionTest/OpenCodeActionTest/obj/Debug/net8.0/SumFloats.genruntimeconfig.cache
+/home/runner/work/OpenCodeActionTest/OpenCodeActionTest/obj/Debug/net8.0/ref/SumFloats.dll
