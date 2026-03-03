@@ -7,15 +7,41 @@ if (string.IsNullOrWhiteSpace(input))
     return;
 }
 
-string[] parts = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-
-if (parts.Length < 2)
+if (!TryParseExpression(input, out double left, out char op, out double right))
 {
     return;
 }
 
-double first = double.Parse(parts[0], CultureInfo.InvariantCulture);
-double second = double.Parse(parts[1], CultureInfo.InvariantCulture);
-double sum = first + second;
+if (op != '+')
+{
+    return;
+}
+
+double sum = left + right;
 
 Console.WriteLine($"Sum = {sum.ToString(CultureInfo.InvariantCulture)}");
+
+static bool TryParseExpression(string rawInput, out double left, out char op, out double right)
+{
+    left = 0;
+    op = '\0';
+    right = 0;
+
+    string input = rawInput.Replace(" ", string.Empty);
+    int opIndex = input.IndexOfAny(['+', '-', '*', '/']);
+
+    if (opIndex <= 0 || opIndex >= input.Length - 1)
+    {
+        return false;
+    }
+
+    op = input[opIndex];
+
+    string leftText = input[..opIndex];
+    string rightText = input[(opIndex + 1)..];
+
+    bool isLeftValid = double.TryParse(leftText, NumberStyles.Float, CultureInfo.InvariantCulture, out left);
+    bool isRightValid = double.TryParse(rightText, NumberStyles.Float, CultureInfo.InvariantCulture, out right);
+
+    return isLeftValid && isRightValid;
+}
